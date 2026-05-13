@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+*.env.local
+*.db
+*.sqlite
+.streamlit/
+dist/
+build/
+htmlcov/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Logs
+logs/
+*.log
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
